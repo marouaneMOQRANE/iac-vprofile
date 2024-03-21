@@ -7,7 +7,7 @@ on:
       - terraform/**
   pull_request:
     branches:
-      - main
+      - '*'
     paths:
       - terraform/**
 
